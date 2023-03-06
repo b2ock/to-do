@@ -39,6 +39,7 @@
     height: 400px;
     flex-grow: 1;
     border-radius: 10px;
+    position: relative;
 }
 
 #list-two {
@@ -47,4 +48,28 @@
     height: 400px;
     flex-grow: 1;
     border-radius: 10px;
+    position: relative;
+}
+
+.list-input {
+    margin-left: 15px;
+    border-radius: 3px;
+}
+
+#list-container {
+    height: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 15px;
+}
+
+.list {
+    margin: 0px;
+    padding-top: 10px;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.list-input {
+    width: 70%;
 }
