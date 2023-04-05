@@ -1,6 +1,7 @@
 body {
     font-family: "Kameron";
     width: 1250px;
+    margin: 50px 15vw 50px 15vw;
 }
 
 .lists {
@@ -13,8 +14,8 @@ body {
     display: inline-block;
 }
 
-#list-items {
-    background: linear-gradient(0deg, #DAF292, #DAF292), linear-gradient(0deg, #DAF292, #DAF292), #DAF292;
+.list-items {
+    background: #DAF292;
     border-radius: 30px;
     padding: 20px;
 
@@ -76,8 +77,22 @@ body {
 
     font-family: inherit;
     font-size: inherit;
+
+    color: #93A659;
 }
 
 .item-delete:hover {
     cursor: pointer;
+}
+
+.title-input {
+    height: 30px;
+    border: 0px;
+
+    font-family: "Kameron";
+
+    font-size: 30px;
+    text-align: center;
+
+    color: #93A659;
 }
