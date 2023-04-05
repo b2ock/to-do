@@ -1,89 +1,67 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-
-    background: #FFFFFF;
-
-    font-family: 'Kameron';
-}
-
-.list-title {
-    position: absolute;
-    width: 368px;
-    height: 72px;
-    left: 130px;
-    top: 0px;
-
-    background: #FFFFFF;
-
-    text-align: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 38px;
-
-    color: #93A659;
+    font-family: "Kameron";
 }
 
 .list {
-    color: #93A659;;
+    color: #93A659;
 }
 
-.item-container {
-    position: absolute;
-    width: 366px;
-    height: 808px;
-    left: 136px;
-    top: 60px;
-
+#list-items {
     background: linear-gradient(0deg, #DAF292, #DAF292), linear-gradient(0deg, #DAF292, #DAF292), #DAF292;
-    border-radius: 50px;
+    border-radius: 30px;
+    padding: 20px;
+
+    width: 350px;
+    height: 700px;
+
+    font-size: 25px;
+
+    overflow: scroll;
+}
+
+.list-title {
+    font-size: 30px;
+    text-align: center;
+    
+    width: 390px;
+}
+
+.list-item-background {
+    background: #EAF5CD;
+
+    width: 100%;
+    height: 50px;
+
+    margin-top: 5px;
 }
 
 .list-item {
-    position: absolute;
-    width: 304px;
-    height: 52px;
-    left: 31px;
-    top: 53px;
+    width: 80%;
+    height: 50px;
 
+    display: inline-block;
+
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.add-list-item {
     background: #EAF5CD;
-    
-    font-size: 20px;
-}
+    border-radius: 10px;
 
-.item-description {
-    display: flex;
-    justify-content: space-between;
-}
+    width: 100%;
 
-.item-title {
-    margin: 16px 0px 16px 0px;
-}
-
-.create-item {
-    position: absolute;
-    width: 304px;
-    height: 52px;
-
-    background: #EAF5CD;
-
+    margin-top: 5px;
     text-align: center;
-    border-radius: 30px;
+    padding: 10px 0px 10px 0px;
 }
 
-.create-title {
-    margin: 16px 0px 16px 0px;
+.add-list-item:hover {
+    cursor: pointer;
 }
 
-.create-input {
-    margin: 16px 0px 16px 0px;
-    width: 60%;
-}
-
-.create-inputting {
-    display: none;
+.item-input {
+    width: 245px;
+    height: 30px;
+    border: none;
 }
